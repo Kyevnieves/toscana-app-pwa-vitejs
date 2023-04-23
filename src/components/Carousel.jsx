@@ -20,7 +20,7 @@ export function Carousel() {
   return (
     <>
       <h1 className='font-bold text-white italic ml-2 mb-2'>Productos</h1>
-      <div className='flex overflow-auto snap-x w-full gap-4'>
+      <div className='flex overflow-auto snap-x w-full gap-4 scroll-bar-none'>
         {products.map((product) => {
           return <HomeProductCard nombre={product.nombre} img={product.img} />;
         })}

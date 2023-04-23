@@ -6,3 +6,7 @@
 *{
     font-family: Gothicb;
 }
+
+.scroll-bar-none::-webkit-scrollbar {
+    display: none;
+}

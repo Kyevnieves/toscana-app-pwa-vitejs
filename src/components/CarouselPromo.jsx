@@ -18,7 +18,7 @@ export function CarouselPromo() {
       <h1 className='font-bold text-white italic ml-2 mb-2 mt-4'>
         Promociones
       </h1>
-      <div className='flex overflow-auto snap-x w-full gap-4 mb-20'>
+      <div className='flex overflow-auto snap-x w-full gap-4 mb-20 scroll-bar-none'>
         {promociones.map((promo) => {
           return <PromoCard img={promo.img} />;
         })}
