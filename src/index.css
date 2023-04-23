@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Gothicb;
+    src: url('/gothicb.ttf') 
+}
+
+*{
+    font-family: Gothicb;
+}
