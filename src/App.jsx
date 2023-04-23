@@ -7,6 +7,8 @@ import {
   GuideBestGift,
   IdealGift,
   SendGiftPage,
+  SingleProductPage,
+  ProductsPage
 } from "./pages";
 import { NavBar } from "./components";
 function App() {
@@ -19,6 +21,7 @@ function App() {
           <Route path='/ideal-gift' element={<IdealGift />} />
           <Route path='/send-gift' element={<SendGiftPage />} />
           <Route path='/guide-best-gift' element={<GuideBestGift />} />
+          <Route path='/product' element={<SingleProductPage />} />
         </Routes>
       </div>
       <footer className='w-full fixed bottom-0'>
