@@ -10,9 +10,9 @@ const handleSubmit = (e) => {
 
 export function GuideBestGift() {
   return (
-    <div className='w-full h-full fixed top-0 left-0'>
+    <div className='w-full h-full absolute top-0 left-0'>
       <TopBar title='Guía para el Mejor Regalo' to='/ideal-gift-page' />
-      <div className='relative'>
+      <div className='relative top-8'>
         <img src='/ideal-gift-banner.jpg' className='w-full' alt='banner' />
         <Degradado />
         <h2 className='text-sm font-bold text-white mx-6 absolute bottom-2'>
@@ -20,7 +20,7 @@ export function GuideBestGift() {
           según tus respuestas te daremos la sugerencia ideal.
         </h2>
       </div>
-      <div className='px-6 py-6 mb-16'>
+      <div className='px-6 pt-6 pb-16 bg-purple-500'>
         <form onSubmit={handleSubmit}>
           <SelectBestGift
             question='1. ¿Cuál color elegiría?'
